@@ -1,15 +1,19 @@
 <!doctype html>
-
 <html lang="en">
-<?php  include('head.php') ?>
-<?php  include('body.php') ?>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./design/style.css" />
+    <title>PHP demo Mark 1</title>
+    <?php include('./design/bootstrap.php')  ?>
+</head>
+<body>
+<?php include('home.php') ?>
+</body>
 
-<div class="container">
-    <div class="container-fluid">
-        <label for="inp1"> Name </label>
-        <input type="text" class="form-control" id="inp1"/>
-    </div>
-</div>
+
 </html>
 
 

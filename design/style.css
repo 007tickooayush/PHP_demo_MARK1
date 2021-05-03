@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100vh;
+}
+
+.bg-ch{
+    background-color:  #E8E0B5 !important;
+}
